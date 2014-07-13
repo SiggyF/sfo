@@ -1,0 +1,423 @@
+** DEBUG  :            0  0.100001998      NOD(KMAX)
+** DEBUG  :            6  0.700013995      XK (KMAX), YK (KMAX), ZK (KMAX), KC (KMAX), NMK (KMAX), RNOD(KMAX)
+** DEBUG  :            6   9.99999978E-03  XS(NSMAX),YS(NSMAX),ZS(NSMAX),IPSAM(NSMAX)
+** DEBUG  :            6   5.00000007E-02  xlan(maxlan)
+** DEBUG  :            7   5.00000007E-02  ylan(maxlan)
+** DEBUG  :            7   5.00000007E-02  zlan(maxlan)
+** DEBUG  :            7   2.50000004E-02  nclan(maxlan)
+** INFO   : Opened Model definition file : r02b_bay.mdu
+** INFO   :  Fraction diameter D50      (m)       0.000200
+** INFO   :  Fraction diameter Dstar    ( )       5.059190
+** INFO   :  Settling velocity Ws vR  (m/s)       0.024626
+** INFO   :  Settling velocity Ws F,C (m/s)       0.023227
+** INFO   :  Setting time h=5(m)     (days)       0.002350
+** INFO   :  Rhosed                 (kg/m3)    2650.000000
+** INFO   :  Ucrc h=1 (m)             (m/s)       0.116715
+** INFO   :  Ucrc h=5 (m)             (m/s)       0.137110
+** INFO   :  Ucrc h=20 (m)            (m/s)       0.154677
+** DEBUG  : Opened 'r07e_bay_net.nc' as #     65536.
+** DEBUG  : Closed NetCDF file 'r07e_bay_net.nc.
+** INFO   : Opened file : deltabay.ldb
+** DEBUG  :            8   5.99999987E-02  xlan(maxlan)
+** DEBUG  :            8   5.99999987E-02  ylan(maxlan)
+** DEBUG  :            9   5.99999987E-02  zlan(maxlan)
+** DEBUG  :            9   2.99999993E-02  nclan(maxlan)
+** DEBUG  :           10   7.19999969E-02  xlan(maxlan)
+** DEBUG  :           10   7.19999969E-02  ylan(maxlan)
+** DEBUG  :           11   7.19999969E-02  zlan(maxlan)
+** DEBUG  :           11   3.59999985E-02  nclan(maxlan)
+** DEBUG  :           12   8.64000022E-02  xlan(maxlan)
+** DEBUG  :           12   8.64000022E-02  ylan(maxlan)
+** DEBUG  :           13   8.64000022E-02  zlan(maxlan)
+** DEBUG  :           14   4.32000011E-02  nclan(maxlan)
+** DEBUG  :           14  0.103680000      xlan(maxlan)
+** DEBUG  :           15  0.103680000      ylan(maxlan)
+** DEBUG  :           16  0.103680000      zlan(maxlan)
+** DEBUG  :           16   5.18399999E-02  nclan(maxlan)
+** DEBUG  :           17  0.124416001      xlan(maxlan)
+** DEBUG  :           18  0.124416001      ylan(maxlan)
+** DEBUG  :           19  0.124416001      zlan(maxlan)
+** DEBUG  :           20   6.22080006E-02  nclan(maxlan)
+** DEBUG  :           21  0.149298996      xlan(maxlan)
+** DEBUG  :           22  0.149298996      ylan(maxlan)
+** DEBUG  :           23  0.149298996      zlan(maxlan)
+** DEBUG  :           24   7.46489987E-02  nclan(maxlan)
+** DEBUG  :           26  0.179158002      xlan(maxlan)
+** DEBUG  :           27  0.179158002      ylan(maxlan)
+** DEBUG  :           28  0.179158002      zlan(maxlan)
+** DEBUG  :           29   8.95790011E-02  nclan(maxlan)
+** DEBUG  :           31  0.214989007      xlan(maxlan)
+** DEBUG  :           33  0.214989007      ylan(maxlan)
+** DEBUG  :           34  0.214989007      zlan(maxlan)
+** DEBUG  :           35  0.107493997      nclan(maxlan)
+** INFO   : Closed file : deltabay.ldb
+** INFO   : Opened file : m3_obs.xyn
+** INFO   : Closed file : m3_obs.xyn
+** INFO   : Opened file : all3_crs.pli
+** INFO   : Closed file : all3_crs.pli
+** DEBUG  :           35   4.34410013E-02  netcell(numpx1)
+** DEBUG  :           36   5.47059998E-02  lnn(numl)
+** DEBUG  :           37  0.109412000      lne(2,numl)
+** DEBUG  :           37   2.57350001E-02  xz(numc)
+** DEBUG  :           37   2.57350001E-02  yz(numc)
+** DEBUG  :           37   2.57350001E-02  xzw(numc)
+** DEBUG  :           38   2.57350001E-02  yzw(numc)
+** DEBUG  :           38   2.57350001E-02  ba(numc)
+** INFO   : Opened file : r02b.ext
+** DEBUG  :           38   5.47059998E-02  xe (nx)
+** DEBUG  :           39   5.47059998E-02  ye (nx)
+** DEBUG  :           39   5.47059998E-02  xyen(2, nx)
+** DEBUG  :           46  0.820590019      kce(nx), kez(nx), keu(nx), kes(nx), ketm(nx), kesd(nx), ket(nx), ken(nx), keg(nx), ked(nx), kep(nx), itpez(nx), itpenz(nx), itpeu(nx) , kew(nx)
+** INFO   : looking for keyword: QUANTITY
+** INFO   : looking for keyword: FILENAME
+** INFO   : looking for keyword: FILETYPE
+** INFO   : looking for keyword: METHOD
+** INFO   : looking for keyword: OPERAND
+** INFO   : Looking for optional VALUE in:
+** INFO   : Looking for optional FACTOR in:
+** INFO   : Looking for optional IFRCTYP in:
+** INFO   : Looking for optional AVERAGINGTYPE in:
+** INFO   : Looking for optional RELATIVESEARCHCELLSIZE in:
+** INFO   : Opened file : sea_002.pli
+** INFO   : Closed file : sea_002.pli
+** INFO   : boundary: 'sea_002.pli' opened 105 cells.
+** INFO   : waterlevelbnd sea_002.pli     105 nr of open bndcells
+** INFO   : looking for keyword: QUANTITY
+** INFO   : looking for keyword: FILENAME
+** INFO   : looking for keyword: FILETYPE
+** INFO   : looking for keyword: METHOD
+** INFO   : looking for keyword: OPERAND
+** INFO   : Looking for optional VALUE in:
+** INFO   : Looking for optional FACTOR in:
+** INFO   : Looking for optional IFRCTYP in:
+** INFO   : Looking for optional AVERAGINGTYPE in:
+** INFO   : Looking for optional RELATIVESEARCHCELLSIZE in:
+** INFO   : Opened file : mal.pli
+** INFO   : Closed file : mal.pli
+** INFO   : boundary: 'mal.pli' opened 4 cells.
+** INFO   : dischargebnd mal.pli       4 nr of open bndcells
+** INFO   : looking for keyword: QUANTITY
+** INFO   : looking for keyword: FILENAME
+** INFO   : looking for keyword: FILETYPE
+** INFO   : looking for keyword: METHOD
+** INFO   : looking for keyword: OPERAND
+** INFO   : Looking for optional VALUE in:
+** INFO   : Looking for optional FACTOR in:
+** INFO   : Looking for optional IFRCTYP in:
+** INFO   : Looking for optional AVERAGINGTYPE in:
+** INFO   : Looking for optional RELATIVESEARCHCELLSIZE in:
+** INFO   : Opened file : mal2.pli
+** INFO   : Closed file : mal2.pli
+** INFO   : boundary: 'mal2.pli' opened 4 cells.
+** INFO   : sedimentbndmal2.pli       4nr of sediment bndcells
+** INFO   : looking for keyword: QUANTITY
+** INFO   : keyword QUANTITY NOT found!
+** DEBUG  :           47  0.206752002      nd(ndx), bl(ndx), bai(ndx), kcs(ndx), aif(ndx)
+** DEBUG  :           51   9.67219993E-02  ln   (2,lnx)
+** DEBUG  :           51   9.67219993E-02  lncn (2,lnx)
+** DEBUG  :           52   9.67219993E-02  bob  (2,lnx)
+** DEBUG  :           53   4.83609997E-02  dx   (  lnx)
+** DEBUG  :           53   4.83609997E-02  dxi  (  lnx)
+** DEBUG  :           53   4.83609997E-02  wu   (  lnx)
+** DEBUG  :           54   4.83609997E-02  wui  (  lnx)
+** DEBUG  :           54   4.83609997E-02  kcu  (  lnx)
+** DEBUG  :           54   4.83609997E-02  csu  (  lnx)
+** DEBUG  :           55   4.83609997E-02  snu  (  lnx)
+** DEBUG  :           55   4.83609997E-02  acl  (  lnx)
+** DEBUG  :           56   4.83609997E-02  acn  (2,lnx)
+** DEBUG  :           56   4.83609997E-02  iadv   (lnx)
+** DEBUG  :           56   4.83609997E-02  teta   (lnx)
+** DEBUG  :           57   4.83609997E-02  ibot   (lnx)
+** DEBUG  :           58  0.145082995      xu(lnx), yu(lnx) , blu(lnx)
+** DEBUG  :           58   5.47059998E-02  ln2lne (nex)
+** DEBUG  :           59   5.47059998E-02  lne2ln (nex)
+** DEBUG  :           60   2.89609991E-02   cn (numk)
+** DEBUG  :           60   2.89609991E-02  ucnx(numk)
+** DEBUG  :           60   2.89609991E-02  ucny(numk)
+** DEBUG  :           61   2.89609991E-02  ban (numk)
+** DEBUG  :           61   4.83609997E-02  wcx1(lnx)
+** DEBUG  :           61   4.83609997E-02  wcy1(lnx)
+** DEBUG  :           62   4.83609997E-02  wcx2(lnx)
+** DEBUG  :           62   4.83609997E-02  wcy2(lnx)
+** DEBUG  :           62   5.16880006E-02  wcxy (2,ndx)
+** DEBUG  :           63   9.67219993E-02  wcL  (2,Lnx)
+** DEBUG  :           63   2.58440003E-02  wc     (ndx)
+** DEBUG  :           64   4.83609997E-02  wcnx3(lnx)
+** DEBUG  :           64   4.83609997E-02  wcny3(lnx)
+** DEBUG  :           65   4.83609997E-02  wcnx4(lnx)
+** DEBUG  :           65   4.83609997E-02  wcny4(lnx)
+** DEBUG  :           66   8.68830010E-02  wcnxy (3,numk)
+** DEBUG  :           66   6.07099989E-03  cscnw(nrcnw)
+** DEBUG  :           66   6.07099989E-03  sncnw(nrcnw)
+** DEBUG  :           66   6.07099989E-03   kcnw(nrcnw)
+** DEBUG  :           67   9.91360024E-02  walls(17,nw)
+** DEBUG  :           68  0.102808997      banf(mxban)
+** DEBUG  :           69  0.102808997      nban(4,mxban)
+** DEBUG  :           70  0.102808997      rr(mxban), nr(mxban)
+** DEBUG  :           71  0.102808997      banh (mxban)
+** DEBUG  :           72  0.102808997      nbanh(4,mxban)
+** DEBUG  :           72   5.16880006E-02  s0  (ndx) , s1  (ndx)
+** DEBUG  :           72   5.16880006E-02  a0  (ndx) , a1  (ndx)
+** DEBUG  :           73   5.16880006E-02  hs  (ndx) , s00 (ndx)
+** DEBUG  :           73   2.58440003E-02  cfs (ndx)
+** DEBUG  :           73   2.58440003E-02  kbot (ndx)
+** DEBUG  :           73   2.58440003E-02  ktop (ndx)
+** DEBUG  :           74   2.58440003E-02  ktop0(ndx)
+** DEBUG  :           74   2.58440003E-02  ktop1(ndx)
+** DEBUG  :           74   2.58440003E-02  kmxn (ndx)
+** DEBUG  :           74   4.83609997E-02  Lbot (Lnx)
+** DEBUG  :           75   4.83609997E-02  Ltop (Lnx)
+** DEBUG  :           75   4.83609997E-02  kmxL (Lnx)
+** DEBUG  :           76   4.83609997E-02  ustb  (lnx)
+** DEBUG  :           76   4.83609997E-02  ustw  (lnx)
+** DEBUG  :           76   2.58440003E-02  laydefnr(ndx)
+** DEBUG  :           77   5.16880006E-02  ucx (ndkx) , ucy (ndkx)
+** DEBUG  :           77   5.16880006E-02  uqcx(ndkx) , uqcy(ndkx)
+** DEBUG  :           77   5.16880006E-02  ucxq(ndkx) , ucyq(ndkx)
+** DEBUG  :           78   5.16880006E-02  qin (ndkx) , vih (ndkx)
+** DEBUG  :           78   5.16880006E-02  dvxc(ndkx) , dvyc(ndkx)
+** DEBUG  :           78   2.58440003E-02  cfli(ndkx)
+** DEBUG  :           79   2.58440003E-02  squ (ndkx)
+** DEBUG  :           79   2.58440003E-02  sqi (ndkx)
+** DEBUG  :           79   2.58440003E-02  sq  (ndkx)
+** DEBUG  :           79   2.58440003E-02  vol0(ndkx)
+** DEBUG  :           79   2.58440003E-02  vol1(ndkx)
+** DEBUG  :           80   2.58440003E-02  volerror(ndkx)
+** DEBUG  :           80   2.58440003E-02  tidep (ndx)
+** DEBUG  :           80   2.58440003E-02  uorb  (ndx)
+** DEBUG  :           80   2.58440003E-02  twav  (ndx)
+** DEBUG  :           81   4.83609997E-02  cfuhi(lnx)
+** DEBUG  :           81   2.58440003E-02  frcu (lnx)
+** DEBUG  :           81   2.58440003E-02  ifrcutp(lnx)
+** DEBUG  :           81   4.83609997E-02  wdsu  (lnx)
+** DEBUG  :           82   2.58440003E-02  frculin (lnx)
+** DEBUG  :           82   4.83609997E-02  u0   (lnkx)
+** DEBUG  :           82   4.83609997E-02  u1   (lnkx)
+** DEBUG  :           83   4.83609997E-02  q1   (lnkx)
+** DEBUG  :           83   4.83609997E-02  qa   (lnkx)
+** DEBUG  :           84   4.83609997E-02  v    (lnkx)
+** DEBUG  :           84   4.83609997E-02  ucxu (lnkx)
+** DEBUG  :           84   4.83609997E-02  ucyu (lnkx)
+** DEBUG  :           85   4.83609997E-02  hu   (lnkx)
+** DEBUG  :           85   4.83609997E-02  huvli(lnkx)
+** DEBUG  :           86   4.83609997E-02  au   (lnkx)
+** DEBUG  :           86   4.83609997E-02  viu  (lnkx)
+** DEBUG  :           86   4.83609997E-02  cflj (lnkx)
+** DEBUG  :           87   4.83609997E-02  tetaj(lnkx)
+** DEBUG  :           87   4.83609997E-02  suu  (lnkx)
+** DEBUG  :           87   4.83609997E-02  advi (lnkx)
+** DEBUG  :           88   4.83609997E-02  adve (lnkx)
+** DEBUG  :           88   4.83609997E-02  rhou (lnkx)
+** DEBUG  :           89   4.83609997E-02  plotlin(max(lnkx,ndkx))
+** DEBUG  :           89   2.58440003E-02  numlimdt(ndx)
+** DEBUG  :           89   2.58440003E-02  bb   (ndx )
+** DEBUG  :           89   2.58440003E-02  dd   (ndx )
+** DEBUG  :           89   2.58440003E-02  fu   (lnkx)
+** DEBUG  :           90   2.58440003E-02  ru   (lnkx)
+** DEBUG  :           90   5.16880006E-02  sed (mxgr,ndkx) , sdupq (mxgr,ndkx)
+** DEBUG  :           90   2.58440003E-02  sedi(mxgr,ndkx)
+** DEBUG  :           91   2.89609991E-02  grainlay(mxgr,mxn)
+** DEBUG  :           91   1.04999996E-03  xbndz(nbndz), ybndz(nbndz), xy2bndz(2,nbndz), zbndz(nbndz), kbndz(n4,nbndz), zbndz0(nbndz), kdz(nbndz)
+** INFO   : looking for keyword: QUANTITY
+** INFO   : looking for keyword: FILENAME
+** INFO   : looking for keyword: FILETYPE
+** INFO   : looking for keyword: METHOD
+** INFO   : looking for keyword: OPERAND
+** INFO   : Looking for optional VALUE in:
+** INFO   : Looking for optional FACTOR in:
+** INFO   : Looking for optional IFRCTYP in:
+** INFO   : Looking for optional AVERAGINGTYPE in:
+** INFO   : Looking for optional RELATIVESEARCHCELLSIZE in:
+** INFO   : External Forcing or Initialising 'waterlevelbnd' from file 'sea_002.pli'.
+** INFO   : looking for keyword: QUANTITY
+** INFO   : looking for keyword: FILENAME
+** INFO   : looking for keyword: FILETYPE
+** INFO   : looking for keyword: METHOD
+** INFO   : looking for keyword: OPERAND
+** INFO   : Looking for optional VALUE in:
+** INFO   : Looking for optional FACTOR in:
+** INFO   : Looking for optional IFRCTYP in:
+** INFO   : Looking for optional AVERAGINGTYPE in:
+** INFO   : Looking for optional RELATIVESEARCHCELLSIZE in:
+** INFO   : External Forcing or Initialising 'dischargebnd' from file 'mal.pli'.
+** INFO   : looking for keyword: QUANTITY
+** INFO   : looking for keyword: FILENAME
+** INFO   : looking for keyword: FILETYPE
+** INFO   : looking for keyword: METHOD
+** INFO   : looking for keyword: OPERAND
+** INFO   : Looking for optional VALUE in:
+** INFO   : Looking for optional FACTOR in:
+** INFO   : Looking for optional IFRCTYP in:
+** INFO   : Looking for optional AVERAGINGTYPE in:
+** INFO   : Looking for optional RELATIVESEARCHCELLSIZE in:
+** INFO   : External Forcing or Initialising 'sedimentbnd' from file 'mal2.pli'.
+** INFO   : looking for keyword: QUANTITY
+** INFO   : keyword QUANTITY NOT found!
+** INFO   : External Forcing or Initialising 'sedimentbnd' from file 'mal2.pli'.
+** INFO   : Closed file : r02b.ext
+** INFO   : No wind, so waves is switched off
+** DEBUG  :           91   4.83609997E-02  klnup(6,lnx)
+** DEBUG  :           91   4.83609997E-02  slnup(6,lnx)
+** DEBUG  :           92   2.58440003E-02  ij(nodtot)
+** DEBUG  :           92   2.58440003E-02  nodbr2(nodtot)
+** DEBUG  :           92   2.58440003E-02  nbrstk(nodtot)
+** DEBUG  :           92   2.58440003E-02  nodstk(nodtot)
+** DEBUG  :           92   2.58440003E-02  noel(nodtot)
+** DEBUG  :           93   2.58440003E-02  noel0(nodtot)
+** DEBUG  :           93   2.58440003E-02  ia(nodtot)
+** DEBUG  :           93   2.58440003E-02  row(nodtot)
+** DEBUG  :           93   4.83609997E-02  lv2(lintot)
+** DEBUG  :           94   2.58440003E-02  jagauss(nodtot)
+** DEBUG  :           97   9.92420018E-02  ccr(0:ijstck)
+** DEBUG  :           98   9.92420018E-02  bbl(0:ijstck)
+** DEBUG  :           98   5.16880006E-02  bbr(nodtot), ddr(nodtot)
+** DEBUG  :           99  0.129219994      d0(nodtot), zkr(nodtot),pk(0:nodtot), apk(nodtot), rk(nodtot)
+** INFO   : nogauss , nocg :          15145         10699
+** INFO   : Building kdtree...
+** INFO   : done
+** INFO   : Finding crossed flowlinks...
+** INFO   : done
+** INFO   : Modelinit finished   at: 10:04:06, 23-**- 114
+** INFO   : * Active Model definition:
+# Generated on **:**:**, **-**-****
+# Deltares, D-Flow FM Version 1.1.108.34607, Jun 25 2014, 16:02:44
+
+[model]
+Program                      = D-Flow FM
+Version                      = 1.1.108.34607
+AutoStart                    = 0                   # Autostart simulation after loading MDU or not (0=no, 1=autostart, 2=autostartstop).
+
+[geometry]
+NetFile                      = r07e_bay_net.nc     # *_net.nc
+BathymetryFile               =                     # *.xyb
+WaterLevIniFile              =                     # Initial water levels sample file *.xyz
+LandBoundaryFile             = deltabay.ldb        # Only for plotting
+ThinDamFile                  =                     # *_thd.pli, Polyline(s) for tracing thin dams.
+ThindykeFile                 =                     # *_tdk.pli, Polyline(s) x,y,z, z = thin dyke top levels
+VertplizFile                 =                     # *_vlay.pliz), = pliz with x,y, Z, first Z =nr of layers, second Z = laytyp
+ProflocFile                  =                     # *_proflocation.xyz)    x,y,z, z = profile refnumber
+ProfdefFile                  =                     # *_profdefinition.def) definition for all profile nrs
+ProfdefxyzFile               =                     # *_profdefinition.def) definition for all profile nrs
+Uniformwidth1D               = 2.                  # Uniform width for 1D profiles not specified bij profloc
+ManholeFile                  =                     # *...
+WaterLevIni                  = 1.5                 # Initial water level
+Bedlevuni                    = -5.                 # Uniform bottom level, (only if bedlevtype>=3, used at missing z values in netfile
+BedlevType                   = 3                   # 1 : Bottom levels at waterlevel cells (=flow nodes), like tiles xz, yz, bl , bob = max(bl left, bl right)
+                                                   # 2 : Bottom levels at velocity points  (=flow links),            xu, yu, blu, bob = blu,    bl = lowest connected link
+                                                   # 3 : Bottom levels at velocity points  (=flow links), using mean network levels xk, yk, zk  bl = lowest connected link
+                                                   # 4 : Bottom levels at velocity points  (=flow links), using min  network levels xk, yk, zk  bl = lowest connected link
+                                                   # 5 : Bottom levels at velocity points  (=flow links), using max  network levels xk, yk, zk  bl = lowest connected link
+PartitionFile                =                     # *_part.pol, polyline(s) x,y
+AngLat                       = 0.                  # Angle of latitude  S-N (deg), 0=no Coriolis
+AngLon                       = 0.                  # Angle of longitude E-W (deg), 0=Greenwich
+Conveyance2D                 = 3                   # -1:R=HU,0:R=H, 1:R=A/P, 2:K=analytic-1D conv, 3:K=analytic-2D conv
+Nonlin2D                     = 0                   # Non-linear 2D volumes, only icm ibedlevtype = 3
+
+[numerics]
+CFLMax                       = 2.                  # Max. Courant nr.
+AdvecType                    = 5                   # Adv type, 0=no, 1= Wenneker, qu-udzt, 2=1, q(uio-u), 3=Perot q(uio-u), 4=Perot q(ui-u), 5=Perot q(ui-u) without itself
+TimeStepType                 = 2                   #  0=only transport, 1=transport + velocity update, 2=full implicit step_reduce, 3=step_jacobi, 4=explicit
+Limtypmom                    = 4                   # Limiter type for cell center advection velocity, 0=no, 1=minmod,2=vanLeer,3=Kooren,4=Monotone Central
+Limtypsa                     = 4                   # Limiter type for salinity transport,           0=no, 1=minmod,2=vanLeer,3=Kooren,4=Monotone Central
+Icgsolver                    = 4                   # Solver type , 1 = sobekGS_OMP, 2 = sobekGS_OMPthreadsafe, 3 = sobekGS, 4 = sobekGS + Saadilud, 5 = parallel/global Saad, 6 = parallel/Petsc, 7 = parallel/GS
+Tlfsmo                       = 0.                  # Fourier smoothing time on waterlevel boundaries (s)
+Slopedrop2D                  = 0.                  # Apply droplosses only if local bottom slope > Slopedrop2D, <=0 =no droplosses
+Teta0                        = 0.55000001192092896 # Teta of time integration, 0.5 < Teta < 1d0
+cstbnd                       = 0                   # Delft-3D type velocity treatment near boundaries for small coastal models (1) or not (0)
+
+[physics]
+UnifFrictCoef                = 3.3000000000000002E-002# Uniform friction coefficient, 0=no friction
+UnifFrictType                = 1                   # 0=Chezy, 1=Manning, 2=White Colebrook, 3=z0 etc
+UnifFrictCoef1D              = 2.3d-2              # Uniform friction coefficient in 1D links, 0=no friction
+UnifFrictCoefLin             = 0.                  # Uniform linear friction coefficient for ocean models (m/s), 0=no
+Vicouv                       = 0.                  # Uniform horizontal eddy viscosity (m2/s)
+Dicouv                       = 1.                  # Uniform horizontal eddy diffusivity (m2/s)
+Smagorinsky                  = 0.10000000000000001 # Add Smagorinsky horizontal turbulence : vicu = vicu + ( (Smagorinsky*dx)**2)*S, e.g. 0.1
+Elder                        = 1.                  # Add Elder contribution                : vicu = vicu + Elder*kappa*ustar*H/6),   e.g. 1.0
+irov                         = 0                   # 0=free slip, 1 = partial slip using wall_ks
+wall_ks                      = 0.                  # Nikuradse roughness for side walls, wall_z0=wall_ks/30
+Rhomean                      = 1000.               #  Average water density (kg/m3)
+Ag                           = 9.8100000000000005  #  Gravitational acceleration
+TidalForcing                 = 1                   # Tidal forcing (0=no, 1=yes) (only for jsferic == 1)
+Salinity                     = 0                   # Include salinity, (0=no, 1=yes)
+Temperature                  = 0                   # Include temperature, (0=no, 1=only transport, 5=heat flux model (5) of D3D)
+
+[sediment]
+Sedimentmodelnr              = 1                   # Sediment model nr, (0=no, 1=Krone, 2=SvR2007)
+SedFile                      =                     # Sediment characteristics file (*.sed)
+MorFile                      =                     # Morphology settings file (*.mor)
+Nr_of_sedfractions           = 1                   # Nr of sediment fractions, (specify the next parameters for each fraction)
+MxgrKrone                    = 1                   # Highest fraction index treated by Krone
+D50                          = 2.0000000000000001E-004# Mean Sandgrain diameter (m), e.g. 0.0001
+Rhosed                       = 2650.               # Mean Sandgrain rho (kg/m3) , e.g. 2650
+Ws                           = 1.0000000000000001E-005# Fall velocity (m/s), e.g. 0.0005 m/s
+Erosionpar                   = 1.d-4               # Krone Partheniades erosion parameter, e.g. 0.0001  (kg/(m2s)
+Taucre                       = 0.10000000000000001 # Critical shear stress for erosion    (N/m2), e.g. 0.3
+InitialSedimentConcentration = 0.                  # Initial sediment concentration (kg /m3)
+Uniformerodablethickness     = 0.                  # Uniform erodable layer thickness (m)
+Numintverticaleinstein       = 10                  # Number of vertical intervals in Einstein integrals ( )
+Jaceneqtr                    = 2                   # 1=equilibriumtransport at cell centre, 2= at netnode (default) ( )
+Morfac                       = 0.                  # Morphological acceleration factor (), bottom updates active for morfac > 0, 1d0=realtime, etc
+TMorfspinup                  = 3600.               # Spin up time for morphological adaptations (s)
+
+[wind]
+ICdtyp                       = 2                   # ( ),1=const, 2=S&B 2 breakpoints, 3= S&B 3 breakpoints, 4=Charnock constant
+Cdbreakpoints                = 6.3000000000000003E-004 7.2300000000000003E-003# ( ),   e.g. 0.00063  0.00723
+Windspeedbreakpoints         = 0. 100.             # (m/s), e.g. 0.0      100.0
+
+[time]
+RefDate                      = 20031001            # Reference date (yyyymmdd)
+Tzone                        = 0.                  # Data Sources in GMT are interrogated with time in minutes since refdat-Tzone*60
+Tunit                        =                     # Time units in MDU (H, M or S)
+DtUser                       = 300.                # User timestep in seconds (interval for external forcing update & his/map output)
+DtMax                        = 180.                # Max timestep in seconds
+DtInit                       = 1.                  # Initial timestep in seconds
+AutoTimestep                 = 1                   # Use CFL timestep limit or not (1/0)
+TStart                       = 0.                  # Start time w.r.t. RefDate (in TUnit)
+TStop                        = 31536000.           # Stop  time w.r.t. RefDate (in TUnit)
+
+[restart]
+RestartFile                  =                     # Restart file, only from netcdf-file, hence: either *_rst.nc or *_map.nc
+RestartDateTime              =                     # Restart time (YYYYMMDDHHMMSS), only relevant in case of restart from *_map.nc
+
+[external forcing]
+ExtForceFile                 = r02b.ext            # *.ext
+
+[output]
+OutputDir                    =                     # Output directory of map-, his-, rst-, dat- and timings-files, default: DFM_OUTPUT_<modelname>. Set to . for no dir/current dir.
+ObsFile                      = m3_obs.xyn          # *.xyn Coords+name of observation stations.
+CrsFile                      = all3_crs.pli        # *_crs.pli Polyline(s) definining cross section(s).
+HisInterval                  = 600.                # History output, given as "interval" "start period" "end period" (s)
+XLSInterval                  = 0.                  # Interval (s) between XLS history
+FlowGeomFile                 =                     # *_flowgeom.nc Flow geometry file in NetCDF format.
+MapInterval                  = 7200.               # Map file output, given as "interval" "start period" "end period" (s)
+MapFormat                    = 1                   # Map file format, 1: netCDF, 2: Tecplot, 3: netCFD and Tecplot
+Richardsononoutput           = 0                   # 1=yes,0=no
+RstInterval                  = 7500000.            # Restart file output, given as "interval" "start period" "end period" (s)
+WaqInterval                  = 3600.               # Interval (in s) between Delwaq file outputs
+StatsInterval                = 0.                  # Interval (in s) between simulation statistics output.
+TimingsInterval              = 0.                  # Timings output interval
+TimeSplitInterval            = 0X                  # Time splitting interval, after which a new output file is started. value+unit, e.g. '1 M', valid units: Y,M,D,h,m,s.
+MapOutputTimeVector          =                     # File (.mpt) containing fixed map output times (s) w.r.t. RefDate
+FullGridOutput               = 0                   # 0:compact, 1:full time-varying grid data
+
+[trachytopes]
+TrtRou                       = N                   # Include alluvial and vegetation roughness (trachytopes), (N=no, Y=yes)
+TrtDef                       = *.ttd               # Filename including trachytope definitions
+Trtl                         = *.arl               # Filename including distribution of trachytope definitions
+DtTrt                        = 60                  # Updates trachytope roughness at specific time interval
+** INFO   : **
+** DEBUG  : Opened NetCDF file 'DFM_OUTPUT_r02b_bay/r02b_bay_his.nc' as #     65536.
+** DEBUG  : Opened NetCDF file 'DFM_OUTPUT_r02b_bay/r02b_bay_map.nc' as #    131072.
+** DEBUG  : Opened NetCDF file 'DFM_OUTPUT_r02b_bay/r02b_bay_20031001_000000_rst.nc' as #    196608.
+** DEBUG  : Closed NetCDF file 'DFM_OUTPUT_r02b_bay/r02b_bay_20031001_000000_rst.nc.
+** INFO   : In waq_wri_model_files().
+** INFO   : Opened file : DFM_DELWAQ_r02b_bay/r02b_bay.hyd
+** INFO   : Closed file : DFM_DELWAQ_r02b_bay/r02b_bay.hyd
+** DEBUG  : Opened NetCDF file 'DFM_DELWAQ_r02b_bay/r02b_bay_flowgeom.nc' as #    196608.
+** DEBUG  : Closed NetCDF file 'DFM_DELWAQ_r02b_bay/r02b_bay_flowgeom.nc.
+** INFO   : Opened file : DFM_DELWAQ_r02b_bay/r02b_bay.bnd
+** INFO   : Closed file : DFM_DELWAQ_r02b_bay/r02b_bay.bnd
+** INFO   : Opened file : DFM_DELWAQ_r02b_bay/r02b_bay.poi
+** INFO   : Opened file : DFM_DELWAQ_r02b_bay/r02b_bay.len
+** INFO   : Opened file : DFM_DELWAQ_r02b_bay/r02b_bay.srf
